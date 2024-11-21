@@ -31,8 +31,7 @@ p {
 	user-select: none;
 	font-weight: 500;
 	line-height: 1;
-	border-radius: 4px;
-	font-size: 15px;
+	font-size: 1rem;
 	
 }
 .NavigationMenuTrigger:focus-visible,
@@ -42,6 +41,7 @@ p {
 .NavigationMenuTrigger:hover,
 .NavigationMenuLink:hover {
 	border-bottom: .125rem solid black;
+	width: 100%;
 }
 
 .NavigationMenuTrigger {
@@ -247,6 +247,23 @@ p {
 	height: 10px;
 	transform: rotate(45deg);
 	border-top-left-radius: 2px;
+}
+
+.nav-heading {
+	margin: 1rem 0 .5rem .5rem;
+	font-size: 1.125rem;
+	font-weight: bold;
+	width: 100%;
+	color: navy;
+	border-bottom: 1px solid lightsteelblue;
+}
+
+.nav-submenu li {
+list-style: none;
+}
+
+.nav-submenu a:hover {
+	font-weight: bold;
 }
 
 @keyframes enterFromRight {

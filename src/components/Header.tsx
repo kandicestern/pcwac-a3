@@ -73,7 +73,7 @@ export default function Header() {
                                                 </li> */}
                                                 <li className="sw-contactUs">
                                                     <a className="sw-contactUs-link sw-header-links" href="/contact-us.html" target="_self" aria-labelledby="contact">
-                                                        <span className="sw-contactUs-icon sw-header-icons"><img src="/images/contact-us.svg" /></span>
+                                                        <span className="sw-contactUs-icon sw-header-icons"><img alt="" src="/images/contact-us.svg" /></span>
                                                         <span id="contact" className="sw-contactUs-text sw-header-text">Contact us</span>
                                                     </a>
                                                 </li>
