@@ -1,0 +1,43 @@
+/* reset */
+button,
+fieldset,
+input {
+  all: unset;
+}
+
+.TabsRoot {
+  display: flex;
+  flex-direction: column;
+}
+
+.cmp-tabs__tab:focus-visible {
+  outline: .125rem solid blue;
+  outline-offset: .125rem;
+}
+.cmp-tabs__tab[data-state="active"] {
+  border-bottom: 0.25rem solid black !important;
+}
+
+.cmp-tabs__tab:hover,
+.cmp-tabs__tab:focus-visible {
+  color: blue;
+  border-bottom: 0.25rem solid blue !important;
+}
+
+.TabsList {
+  flex-shrink: 0;
+  display: flex;
+  border-bottom: 4px solid mediumslateblue;
+}
+
+.TabsContent {
+  flex-grow: 1;
+  padding-top: 1rem;
+  background-color: transparent;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  outline: none;
+}
+.TabsContent:focus {
+  box-shadow: 0 0 0 2px black;
+}
