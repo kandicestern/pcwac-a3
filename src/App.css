@@ -12175,8 +12175,6 @@ p {
   .sw-header .sw-header-wrapper .sw-headerInfo-right .sw-login-dropbtn .sw-login-text {
     padding-left: 4px;
     display: inline-block;
-    font-size: 0.6875rem;
-    line-height: 0.9375rem;
     text-align: left;
     position: relative;
     bottom: 2px;
@@ -13159,21 +13157,6 @@ p {
 
 .navigation .cmp-navigation .cmp-navigation__item--level-0.sw-display-menu .cmp-navigation__item--level-1.sw-display-sub-menu ul {
   display: block;
-}
-
-.sw-hamburger-menu {
-  display: none;
-}
-
-@media (max-width: 1150px) {
-  .sw-hamburger-menu {
-    display: block;
-    height: 14px;
-    position: absolute;
-    width: 24px;
-    left: 19px;
-    /* background: url("clientlib-base/site/styles/src/assets/resources/illustrations/hamburger-menu-icon.svg") no-repeat center; */
-  }
 }
 
 .sw-nav-close {
@@ -15302,11 +15285,16 @@ input[type="search"] ::-webkit-search-results-decoration {
 @media (max-width: 1150px) {
   .sw-hamburger-menu {
     display: block;
-    height: 14px;
+    height: auto;
     position: absolute;
-    width: 24px;
-    left: 19px;
-    /* background: url("clientlib-base/site/styles/src/assets/resources/illustrations/hamburger-menu-icon.svg") no-repeat center; */
+    width: 53px;
+    top: .125rem;
+    left: .125rem;
+  }
+
+  .desktop-nav {
+    display: none;
+    appearance: none;
   }
 }
 

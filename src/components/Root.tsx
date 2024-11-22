@@ -16,7 +16,11 @@ export default function Root() {
                         <div id="container-111d2e0f0c" className="cmp-container ">
                             <div className="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
                                 <Header />
-                                <Navigation />
+                                <div className='desktop-nav'>
+                                    <div className="navigation aem-GridColumn aem-GridColumn--default--12">
+                                        <Navigation />
+                                    </div>
+                                </div>
                                 <CTAItems />
                                 <Hero />
                                 <div className="container responsivegrid articleLayout aem-GridColumn aem-GridColumn--default--12">

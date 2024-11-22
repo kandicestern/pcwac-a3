@@ -8,10 +8,11 @@ import * as NavigationMenu from "@radix-ui/react-navigation-menu";
 
 import "./Navigation.css";
 
-export default function Navigation() {
+export default function Navigation(props: NavigationMenu.NavigationMenuProps) {
+    const {orientation} = props;
     return (
-        <div className="navigation aem-GridColumn aem-GridColumn--default--12">
-            <NavigationMenu.Root className="NavigationMenuRoot">
+        <div className="nav">
+            <NavigationMenu.Root orientation={orientation} className="NavigationMenuRoot">
                 <NavigationMenu.List className="NavigationMenuList">
                     <NavigationMenu.Item>
                         <NavigationMenu.Trigger className="NavigationMenuTrigger">
