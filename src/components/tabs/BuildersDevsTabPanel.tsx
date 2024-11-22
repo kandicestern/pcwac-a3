@@ -2,7 +2,7 @@ export default function BuildersDevs() {
     return (
         <div className="responsivegrid">
             <div className="aem-Grid aem-Grid--12 aem-Grid--default--12 aem-Grid--phone--12 ">
-
+                <h2>Builders and developers</h2>
                 <div
                     className="category-container accordion aem-GridColumn aem-GridColumn--default--12">
                     <div id="category-container-14ad42a930"
@@ -38,8 +38,8 @@ export default function BuildersDevs() {
                                         </div>
                                     </div>
                                     <div className="category-title">
-                                        <h3><span className="sw-blue">Building plan
-                                            approvals</span></h3>
+                                        <span className="sw-blue">Building plan
+                                            approvals</span>
                                     </div>
                                     <div className="category-bodytext">
                                         <p>You need us to approve your plans before you
@@ -77,8 +77,8 @@ export default function BuildersDevs() {
                                         </div>
                                     </div>
                                     <div className="category-title">
-                                        <h3><span className="sw-blue">First-time
-                                            builders</span></h3>
+                                        <span className="sw-blue">First-time
+                                            builders</span>
                                     </div>
                                     <div className="category-bodytext">
                                         <p>Here are 5 steps for first-time builders to
@@ -116,8 +116,8 @@ export default function BuildersDevs() {
                                         </div>
                                     </div>
                                     <div className="category-title">
-                                        <h3><span className="sw-blue">First-time
-                                            developers</span></h3>
+                                        <span className="sw-blue">First-time
+                                            developers</span>
                                     </div>
                                     <div className="category-bodytext">
                                         <p>Steps to follow to set up dual occupancies,
@@ -154,11 +154,7 @@ export default function BuildersDevs() {
                             <a href="/plumbing-building-developing/building/sydney-water-tap-in.html"
                                 target="_self">
                                 <div className="sw-cta-container">
-                                    <div className="sw-ct-icon-container">
-                                        <div className="sw-circle"><img
-                                            src="/content/dam/sydneywater/icons/reversed/tap-in.svg"
-                                            alt="Plans" /></div>
-                                    </div>
+
                                     <div className="sw-cta-text-container">
                                         <div className="sw-cta-title">
                                             <p>Go to Sydney Water Tap in</p>
@@ -187,11 +183,7 @@ export default function BuildersDevs() {
                             <a href="/plumbing-building-developing/provider-information/listed-providers.html"
                                 target="_self">
                                 <div className="sw-cta-container">
-                                    <div className="sw-ct-icon-container">
-                                        <div className="sw-circle"><img
-                                            src="/content/dam/sydneywater/icons/reversed/providers.svg"
-                                            alt="Providers" /></div>
-                                    </div>
+
                                     <div className="sw-cta-text-container">
                                         <div className="sw-cta-title">
                                             <p><span className="sw-blue">Find listed
@@ -218,7 +210,7 @@ export default function BuildersDevs() {
                 </div>
                 <div
                     className="quicklinks aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--6 aem-GridColumn--offset--default--0">
-                    <div className="sw-quicklinks-title">Building and developing quick links
+                    <div className="sw-quicklinks-title"><h3>Building and developing quick links</h3>
                     </div>
                     <div className='sw-row'>
                         <ul className="sw-quicklinks">

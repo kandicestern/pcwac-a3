@@ -5,6 +5,10 @@ input {
   all: unset;
 }
 
+.category-title {
+  font-weight: bold;
+}
+
 .TabsRoot {
   display: flex;
   flex-direction: column;

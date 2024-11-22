@@ -4,8 +4,7 @@ export default function WhatsOn() {
             <div className="text aem-GridColumn aem-GridColumn--default--12">
                 <div data-cmp-data-layer="{&#34;text-e1f3618c4b&#34;:{&#34;@type&#34;:&#34;sydneywater-commons/components/text&#34;,&#34;repo:modifyDate&#34;:&#34;2023-02-10T02:03:11Z&#34;,&#34;xdm:text&#34;:&#34;&lt;h2>&amp;nbsp;&lt;/h2>\r\n&lt;h2>&lt;span className=\&#34;sw-blue\&#34;>What&#39;s on&lt;/span>&lt;/h2>\r\n&#34;}}"
                     id="text-e1f3618c4b" className="cmp-text">
-                    <h2> </h2>
-                    <h2><span className="sw-blue">What's on</span></h2>
+                    <h2 className="sw-blue">What's on</h2>
 
                 </div>
             </div>
@@ -49,7 +48,7 @@ export default function WhatsOn() {
                                     </div>
                                 </div>
                                 <div className="category-title">
-                                    <h3><span className="sw-blue">Smart meters</span></h3>
+                                    <><span className="sw-blue">Smart meters</span></>
                                 </div>
                                 <div className="category-bodytext">
                                     <p>Over the next few years, smart water meters will replace
@@ -87,7 +86,7 @@ export default function WhatsOn() {
                                     </div>
                                 </div>
                                 <div className="category-title">
-                                    <h3>Sydney Innovation Festival 2025</h3>
+                                    <>Sydney Innovation Festival 2025</>
                                 </div>
                                 <div className="category-bodytext">
                                     <p>SWIF is back this year with a cross-sector focus on Collaboration
@@ -128,7 +127,7 @@ export default function WhatsOn() {
                                     </div>
                                 </div>
                                 <div className="category-title">
-                                    <h3>Long Term Capital and Operational Plan</h3>
+                                    <>Long Term Capital and Operational Plan</>
                                 </div>
                                 <div className="category-bodytext">
                                     <p>The LTCOP is a major milestone in Sydney Water's 135-year

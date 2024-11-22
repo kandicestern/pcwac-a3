@@ -2,7 +2,7 @@ export default function Residents() {
     return (
         <div className="responsivegrid">
             <div className="aem-Grid aem-Grid--12 aem-Grid--default--12 aem-Grid--phone--12 ">
-                <div
+                <h2 className="">Residents</h2><div
                     className="category-container accordion aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--12 aem-GridColumn--offset--default--0">
                     <div id="category-container-ab0c609a67"
                         className="cmp-accordion sw-category-container" data-cmp-is="accordion"
@@ -41,7 +41,7 @@ export default function Residents() {
                                         </div>
                                     </div>
                                     <div className="category-title">
-                                        <h3>Save water, save money</h3>
+                                        Save water, save money
                                     </div>
                                     <div className="category-bodytext">
                                         <p>Save money on your water bill with these
@@ -84,7 +84,7 @@ export default function Residents() {
                                         </div>
                                     </div>
                                     <div className="category-title">
-                                        <h3>PFAS: what's the story?</h3>
+                                        PFAS: what's the story?
                                     </div>
                                     <div className="category-bodytext">
                                         <p>Your drinking water is treated and tested, so
@@ -126,7 +126,7 @@ export default function Residents() {
                                         </div>
                                     </div>
                                     <div className="category-title">
-                                        <h3>WaterFix Residential</h3>
+                                        WaterFix Residential
                                     </div>
                                     <div className="category-bodytext">
                                         <p>We can help you save water and save money at
@@ -165,14 +165,9 @@ export default function Residents() {
                             <a href="/water-the-environment/how-we-manage-sydneys-water/safe-drinking-water/daily-drinking-water-quality-report.html"
                                 target="_self">
                                 <div className="sw-cta-container">
-                                    <div className="sw-ct-icon-container">
-                                        <div className="sw-circle"><img
-                                            src="/content/dam/sydneywater/icons/reversed/drinking-water.svg"
-                                            alt="glass icon" /></div>
-                                    </div>
                                     <div className="sw-cta-text-container">
                                         <div className="sw-cta-title">
-                                            <h3>How clean is your drinking water?</h3>
+                                            <p>How clean is your drinking water?</p>
                                         </div>
                                         <div className="sw-cta-body-text">
                                             <p>Enter your address to find out.</p>
@@ -196,16 +191,12 @@ export default function Residents() {
                             <a href="https://www.waternsw.com.au/nsw-dams/nsw-storage-levels/greater-sydney-dam-levels"
                                 target="_self">
                                 <div className="sw-cta-container">
-                                    <div className="sw-ct-icon-container">
-                                        <div className="sw-circle"><img
-                                            src="/content/dam/sydneywater/icons/reversed/droplet.svg"
-                                            alt="Drop icon" /></div>
-                                    </div>
+
                                     <div className="sw-cta-text-container">
                                         <div className="sw-cta-title">
-                                            <h3>Total water
+                                            <p>Total water
                                                 storage 95%<br />
-                                            </h3>
+                                            </p>
                                         </div>
                                         <div className="sw-cta-body-text">
                                             <p>Find out more.<br />
@@ -226,7 +217,7 @@ export default function Residents() {
                 </div>
                 <div
                     className="quicklinks aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--offset--default--6 aem-GridColumn--phone--10 aem-GridColumn aem-GridColumn--default--6 aem-GridColumn--offset--phone--0">
-                    <div className="sw-quicklinks-title">Quick links</div>
+                    <div className="sw-quicklinks-title"><h3>Quick links</h3></div>
                     <div className='sw-row'>
                         <ul className="sw-quicklinks">
                             <li className="sw-quicklink-list"><a
@@ -306,10 +297,10 @@ export default function Residents() {
                                 </div>
                                 {/* <!--    Show image for feature block component    --> */}
                                 <div className="cmp-teaser__content">
-                                    <h3 className="cmp-teaser__title sw-blue sw-advertisement-title"
-                                        aria-label="Go paperless and win a $2,000 e-gift card">
-                                        Go paperless and win a $2,000 e-gift card
-                                    </h3>
+                                    <span className="cmp-teaser__title sw-blue sw-advertisement-title"
+                                    ><h3>
+                                            Go paperless and win a $2,000 e-gift card
+                                        </h3></span>
                                     <div
                                         className="cmp-teaser__description sw-advertisement-desc">
                                         <p>Going paperless is smart and saves so many

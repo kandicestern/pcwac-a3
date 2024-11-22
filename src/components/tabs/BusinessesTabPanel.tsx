@@ -2,6 +2,7 @@ export default function Businesses() {
     return (
         <div className="responsivegrid">
             <div className="aem-Grid aem-Grid--12 aem-Grid--default--12 aem-Grid--phone--12 ">
+                <h2>Businesses</h2>
                 <div
                     className="category-container accordion aem-GridColumn aem-GridColumn--default--12">
                     <div id="category-container-d403ad49d4"
@@ -46,8 +47,8 @@ export default function Businesses() {
                                         </div>
                                     </div>
                                     <div className="category-title">
-                                        <h3><span className="sw-blue">Save big with online
-                                            monitoring</span></h3>
+                                        <><span className="sw-blue">Save big with online
+                                            monitoring</span></>
                                     </div>
                                     <div className="category-bodytext">
                                         <p>If a leak stays hidden, you'll never know how
@@ -87,8 +88,8 @@ export default function Businesses() {
                                         </div>
                                     </div>
                                     <div className="category-title">
-                                        <h3><span className="sw-blue">Industrial
-                                            customers</span></h3>
+                                        <><span className="sw-blue">Industrial
+                                            customers</span></>
                                     </div>
                                     <div className="category-bodytext">
                                         <p>What you need to know before discharging
@@ -167,11 +168,7 @@ export default function Businesses() {
                             <a href="/plumbing-building-developing/building/sydney-water-tap-in.html"
                                 target="_self">
                                 <div className="sw-cta-container">
-                                    <div className="sw-ct-icon-container">
-                                        <div className="sw-circle"><img
-                                            src="/content/dam/sydneywater/icons/reversed/tap-in.svg"
-                                            alt="Plans" /></div>
-                                    </div>
+
                                     <div className="sw-cta-text-container">
                                         <div className="sw-cta-title">
                                             <p>Go to Sydney Water Tap in</p>
@@ -199,11 +196,7 @@ export default function Businesses() {
                             <a href="/your-business/managing-trade-wastewater/commercial-trade-wastewater/wastesafe-transporters.html"
                                 target="_self">
                                 <div className="sw-cta-container">
-                                    <div className="sw-ct-icon-container">
-                                        <div className="sw-circle"><img
-                                            src="/content/dam/sydneywater/icons/reversed/wastesafe-transporter.svg"
-                                            alt="Wastesafe transporter" /></div>
-                                    </div>
+
                                     <div className="sw-cta-text-container">
                                         <div className="sw-cta-title">
                                             <p><span className="sw-blue"></span><span
@@ -228,7 +221,7 @@ export default function Businesses() {
                 </div>
                 <div
                     className="quicklinks aem-GridColumn--default--none aem-GridColumn--offset--default--6 aem-GridColumn aem-GridColumn--default--6">
-                    <div className="sw-quicklinks-title">Business quick links</div>
+                    <div className="sw-quicklinks-title"><h3>Business quick links</h3></div>
                     <div className='sw-row'>
                         <ul className="sw-quicklinks">
                             <li className="sw-quicklink-list"><a

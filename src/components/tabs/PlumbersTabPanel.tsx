@@ -2,7 +2,7 @@ export default function Plumbers() {
     return (
         <div className="responsivegrid">
             <div className="aem-Grid aem-Grid--12 aem-Grid--default--12 aem-Grid--phone--12 ">
-
+                <h2>Plumbers</h2>
                 <div
                     className="category-container accordion aem-GridColumn aem-GridColumn--default--12">
                     <div id="category-container-889565dfae"
@@ -40,8 +40,8 @@ export default function Plumbers() {
                                         </div>
                                     </div>
                                     <div className="category-title">
-                                        <h3><span className="sw-blue">New
-                                            connections </span></h3>
+                                        <span className="sw-blue">New
+                                            connections </span>
                                     </div>
                                     <div className="category-bodytext">
                                         <p>Find out what you need to do when you want to
@@ -81,8 +81,8 @@ export default function Plumbers() {
                                         </div>
                                     </div>
                                     <div className="category-title">
-                                        <h3><span className="sw-blue">Backflow test
-                                            reports</span></h3>
+                                        <span className="sw-blue">Backflow test
+                                            reports</span>
                                     </div>
                                     <div className="category-bodytext">
                                         <p>Learn about our backflow requirements and
@@ -125,8 +125,8 @@ export default function Plumbers() {
                                         </div>
                                     </div>
                                     <div className="category-title">
-                                        <h3><span className="sw-blue">Meters and
-                                            standpipes</span></h3>
+                                        <span className="sw-blue">Meters and
+                                            standpipes</span>
                                     </div>
                                     <div className="category-bodytext">
                                         <p>Learn what you need to install a meter, or
@@ -161,11 +161,7 @@ export default function Plumbers() {
                             <a href="/plumbing-building-developing/building/sydney-water-tap-in.html"
                                 target="_self">
                                 <div className="sw-cta-container">
-                                    <div className="sw-ct-icon-container">
-                                        <div className="sw-circle"><img
-                                            src="/content/dam/sydneywater/icons/reversed/tap-in.svg"
-                                            alt="Plans" /></div>
-                                    </div>
+
                                     <div className="sw-cta-text-container">
                                         <div className="sw-cta-title">
                                             <p>Go to Sydney Water Tap in</p>
@@ -193,11 +189,7 @@ export default function Plumbers() {
                             <a href="/plumbing-building-developing/plumbing/backflow-prevention/plumber-search.html"
                                 target="_self">
                                 <div className="sw-cta-container">
-                                    <div className="sw-ct-icon-container">
-                                        <div className="sw-circle"><img
-                                            src="/content/dam/sydneywater/icons/reversed/backflow-plumber.svg"
-                                            alt="Backflow plumber" /></div>
-                                    </div>
+
                                     <div className="sw-cta-text-container">
                                         <div className="sw-cta-title">
                                             <p><span className="sw-blue"><span
@@ -224,7 +216,7 @@ export default function Plumbers() {
                 </div>
                 <div
                     className="quicklinks aem-GridColumn--default--none aem-GridColumn--offset--default--6 aem-GridColumn aem-GridColumn--default--6">
-                    <div className="sw-quicklinks-title">Plumbing quick links</div>
+                    <div className="sw-quicklinks-title"><h3>Plumbing quick links</h3></div>
                     <div className='sw-row'>
                         <ul className="sw-quicklinks">
                             <li className="sw-quicklink-list"><a
