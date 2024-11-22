@@ -14,31 +14,7 @@ export default function Plumbers() {
                             id="category-container-889565dfae-item-47333a4f29">
 
                             <div className="category-item image sw-comp-bg-white">
-
-                                <a href="/plumbing-building-developing/plumbing/connections-disconnections.html"
-                                    className="  sw-item-border">
-                                    <div className="sw-image-container">
-                                        <div data-cmp-is="image" data-cmp-lazy
-                                            data-cmp-lazythreshold="0"
-                                            data-cmp-src="/_jcr_content/root/container_1919732005/sw_tabs/item_1629179343527/category_container/category_item_180206696.coreimg.85{.width}.jpeg/1676938643965/man-fixing-pipe-under-ground.jpeg"
-                                            data-cmp-widths="128,256,512,1024,1280,1440,1920,2048"
-                                            data-asset="/content/dam/sydneywater/images/homepage/man-fixing-pipe-under-ground.jpg"
-                                            id="image-47333a4f29"
-                                            data-cmp-data-layer="{&#34;image-47333a4f29&#34;:{&#34;@type&#34;:&#34;sydneywater-commons/components/image&#34;,&#34;repo:modifyDate&#34;:&#34;2023-02-21T00:17:23Z&#34;,&#34;image&#34;:{&#34;repo:id&#34;:&#34;28efb79c-aeff-4265-b4d3-177db5676c84&#34;,&#34;repo:modifyDate&#34;:&#34;2023-02-21T00:14:43Z&#34;,&#34;@type&#34;:&#34;image/jpeg&#34;,&#34;repo:path&#34;:&#34;/content/dam/sydneywater/images/homepage/man-fixing-pipe-under-ground.jpg&#34;,&#34;xdm:tags&#34;:[]}}}"
-                                            className="cmp-image" itemScope
-                                            itemType="http://schema.org/ImageObject">
-
-                                            <noscript data-cmp-hook-image="noscript">
-
-                                                <img src="/_jcr_content/root/container_1919732005/sw_tabs/item_1629179343527/category_container/category_item_180206696.coreimg.jpeg/1676938643965/man-fixing-pipe-under-ground.jpeg"
-                                                    className="cmp-image__image"
-                                                    itemProp="contentUrl"
-                                                    data-cmp-hook-image="image"
-                                                    alt="Construction in a front garden" />
-
-                                            </noscript>
-                                        </div>
-                                    </div>
+                                <div id="plu-desc-1">
                                     <div className="category-title">
                                         <span className="sw-blue">New
                                             connections </span>
@@ -47,9 +23,11 @@ export default function Plumbers() {
                                         <p>Find out what you need to do when you want to
                                             connect to, or disconnect from, our
                                             services.</p>
-                                        <p><span className="external-link">Read more</span>
-                                        </p>
                                     </div>
+                                </div>
+                                <a aria-describedby="plu-desc-1"
+                                    href="/your-home/saving-water-at-home/water-saving-tips.html">
+                                    <button tabIndex={-1} className="external-link">Read more</button>
                                 </a>
                             </div>
                         </div>
@@ -57,29 +35,7 @@ export default function Plumbers() {
                             data-cmp-data-layer="{&#34;category-container-889565dfae-item-1c12426143&#34;:{&#34;@type&#34;:&#34;sydneywater-commons/components/category-container/item&#34;,&#34;repo:modifyDate&#34;:&#34;2023-02-21T00:17:32Z&#34;,&#34;dc:title&#34;:&#34;Backflow&#34;}}"
                             id="category-container-889565dfae-item-1c12426143">
                             <div className="category-item image sw-comp-bg-white">
-                                <a href="/your-business/meeting-your-responsibilities/backflow-prevention.html"
-                                    className="  sw-item-border">
-                                    <div className="sw-image-container">
-                                        <div data-cmp-is="image" data-cmp-lazy
-                                            data-cmp-lazythreshold="0"
-                                            data-cmp-src="/_jcr_content/root/container_1919732005/sw_tabs/item_1629179343527/category_container/category_item_372185706.coreimg.85{.width}.jpeg/1676938652512/backflow-protection-pipe-in-grass.jpeg"
-                                            data-cmp-widths="128,256,512,1024,1280,1440,1920,2048"
-                                            data-asset="/content/dam/sydneywater/images/homepage-refresh/backflow-protection-pipe-in-grass.jpg"
-                                            id="image-1c12426143"
-                                            data-cmp-data-layer="{&#34;image-1c12426143&#34;:{&#34;@type&#34;:&#34;sydneywater-commons/components/image&#34;,&#34;repo:modifyDate&#34;:&#34;2023-02-21T00:17:32Z&#34;,&#34;image&#34;:{&#34;repo:id&#34;:&#34;32e61999-cde6-4c0d-95ce-f43309857a54&#34;,&#34;repo:modifyDate&#34;:&#34;2023-02-16T05:17:23Z&#34;,&#34;@type&#34;:&#34;image/jpeg&#34;,&#34;repo:path&#34;:&#34;/content/dam/sydneywater/images/homepage-refresh/backflow-protection-pipe-in-grass.jpg&#34;,&#34;xdm:tags&#34;:[]}}}"
-                                            className="cmp-image" itemScope
-                                            itemType="http://schema.org/ImageObject">
-
-                                            <noscript data-cmp-hook-image="noscript">
-
-                                                <img src="/_jcr_content/root/container_1919732005/sw_tabs/item_1629179343527/category_container/category_item_372185706.coreimg.jpeg/1676938652512/backflow-protection-pipe-in-grass.jpeg"
-                                                    className="cmp-image__image"
-                                                    itemProp="contentUrl"
-                                                    data-cmp-hook-image="image"
-                                                    alt="Large backflow valve" />
-                                            </noscript>
-                                        </div>
-                                    </div>
+                                <div id="plu-desc-2">
                                     <div className="category-title">
                                         <span className="sw-blue">Backflow test
                                             reports</span>
@@ -87,10 +43,13 @@ export default function Plumbers() {
                                     <div className="category-bodytext">
                                         <p>Learn about our backflow requirements and
                                             submit test reports online.</p>
-                                        <p><span className="external-link">Read more</span>
-                                        </p>
                                     </div>
+                                </div>
+                                <a aria-describedby="plu-desc-2"
+                                    href="/your-home/saving-water-at-home/water-saving-tips.html">
+                                    <button tabIndex={-1} className="external-link">Read more</button>
                                 </a>
+
                             </div>
                         </div>
                         <div className="cmp-accordion__item sw-category-item"
@@ -98,32 +57,7 @@ export default function Plumbers() {
                             id="category-container-889565dfae-item-bf3b025ffc">
 
                             <div className="category-item image sw-comp-bg-white">
-                                <a href="/plumbing-building-developing/plumbing/meters-metered-standpipes.html"
-                                    className="  sw-item-border">
-                                    <div className="sw-image-container">
-                                        <div data-cmp-is="image" data-cmp-lazy
-                                            data-cmp-lazythreshold="0"
-                                            data-cmp-src="/_jcr_content/root/container_1919732005/sw_tabs/item_1629179343527/category_container/category_item.coreimg.85{.width}.jpeg/1683005425676/retrofit-digital-meter-reading.jpeg"
-                                            data-cmp-widths="128,256,512,1024,1280,1440,1920,2048"
-                                            data-asset="/content/dam/sydneywater/images/meters/digital/retrofit-digital-meter-reading.jpg"
-                                            id="image-bf3b025ffc"
-                                            data-cmp-data-layer="{&#34;image-bf3b025ffc&#34;:{&#34;@type&#34;:&#34;sydneywater-commons/components/image&#34;,&#34;repo:modifyDate&#34;:&#34;2023-05-02T05:30:25Z&#34;,&#34;dc:title&#34;:&#34;Example of a large digital meter retrofit&#34;,&#34;image&#34;:{&#34;repo:id&#34;:&#34;c08b8803-8862-4b5f-86e5-e3ff1202db49&#34;,&#34;repo:modifyDate&#34;:&#34;2022-07-08T03:52:55Z&#34;,&#34;@type&#34;:&#34;image/jpeg&#34;,&#34;repo:path&#34;:&#34;/content/dam/sydneywater/images/meters/digital/retrofit-digital-meter-reading.jpg&#34;,&#34;xdm:tags&#34;:[&#34;sydneywater:meter/digital-meter&#34;]}}}"
-                                            className="cmp-image" itemScope
-                                            itemType="http://schema.org/ImageObject">
-                                            <noscript data-cmp-hook-image="noscript">
-                                                <img src="/_jcr_content/root/container_1919732005/sw_tabs/item_1629179343527/category_container/category_item.coreimg.jpeg/1683005425676/retrofit-digital-meter-reading.jpeg"
-                                                    className="cmp-image__image"
-                                                    itemProp="contentUrl"
-                                                    data-cmp-hook-image="image"
-                                                    alt="Itron meter" />
-                                            </noscript>
-                                            <div className="sw-image-wrap">
-                                                <p className="cmp-image__title"></p>
-                                            </div>
-                                            <meta itemProp="caption"
-                                                content="Example of a large digital meter retrofit" />
-                                        </div>
-                                    </div>
+                                <div id="plu-desc-3">
                                     <div className="category-title">
                                         <span className="sw-blue">Meters and
                                             standpipes</span>
@@ -131,10 +65,13 @@ export default function Plumbers() {
                                     <div className="category-bodytext">
                                         <p>Learn what you need to install a meter, or
                                             apply for and use a standpipe.</p>
-                                        <p><span className="external-link">Read more</span>
-                                        </p>
                                     </div>
+                                </div>
+                                <a aria-describedby="plu-desc-3"
+                                    href="/your-home/saving-water-at-home/water-saving-tips.html">
+                                    <button tabIndex={-1} className="external-link">Read more</button>
                                 </a>
+
                             </div>
                         </div>
                     </div>

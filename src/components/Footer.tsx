@@ -12,13 +12,6 @@ export default function Footer() {
                                     <div className="sw-footer-container">
                                         <div className="sw-footer-wrapper">
                                             <div className="sw-footer-top">
-                                                <div className="sw-footer-left">
-                                                    <div className="sw-footer-logo">
-                                                        <img src="/content/dam/sydneywater/icons/recon_rectangle_long.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
-                                                            alt="Raindrop with Aboriginal design"
-                                                            className="sw-logo-img" />
-                                                    </div>
-                                                </div>
                                                 <div className="sw-footer-center">
                                                     <p className="sw-footer-info">Sydney Water respectfully
                                                         acknowledges the Traditional Custodians of the land and
@@ -30,19 +23,12 @@ export default function Footer() {
                                                         <a href="https://www.linkedin.com/company/sydney-water"
                                                             className="sw-linkedin " title="Follow us on LinkedIn"></a>
 
-                                                        <a href="https://twitter.com/SydneyWaterNews"
-                                                            className="sw-twitter " title="Follow us on X"></a>
-
                                                         <a href="https://www.facebook.com/SydneyWater/"
                                                             className="sw-facebook " title="Like us on Facebook"></a>
 
                                                         <a href="https://www.instagram.com/sydneywater"
                                                             className="sw-instagram "
                                                             title="Follow us on Instagram"></a>
-
-                                                        <a href="https://www.youtube.com/SydneyWaterTV"
-                                                            className="sw-youTube "
-                                                            title="Subscribe to us on YouTube"></a>
                                                     </div>
                                                 </div>
                                             </div>

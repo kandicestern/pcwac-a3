@@ -9198,6 +9198,7 @@ ol.cmp-breadcrumb__list li+li:before {
 }
 
 .sw-category-container .sw-category-item .category-item.sw-comp-bg-white {
+  height: 100%;
   background-color: #fff;
 }
 
@@ -9295,6 +9296,7 @@ ol.cmp-breadcrumb__list li+li:before {
   font-size: 1rem;
   line-height: 1.125rem;
   text-align: left;
+  padding: 1rem;
   margin-top: 15px;
 }
 
@@ -9305,7 +9307,6 @@ ol.cmp-breadcrumb__list li+li:before {
 }
 
 .sw-category-container .sw-category-item .category-item .category-bodytext p {
-  margin: 0;
   font-size: 1rem;
   line-height: 1.125rem;
   text-align: left;
@@ -9343,21 +9344,18 @@ ol.cmp-breadcrumb__list li+li:before {
   display: none;
 }
 
-.sw-category-container .sw-category-item .category-item .category-title p {
-  margin: 0;
-}
-
-.sw-category-container .sw-category-item .category-item .category-title * {
-  font-size: 1rem;
+.sw-category-container .sw-category-item .category-item .category-title {
+  padding: 3rem 1rem 1rem 1rem;
+  font-size: 1.25rem;
   line-height: 1.25rem;
   text-align: left;
   font-weight: 600;
-  margin: 0;
+  
 }
 
 @media (max-width: 773px) {
   .sw-category-container .sw-category-item .category-item .category-title * {
-    font-size: 16px;
+    font-size: 1.25rem;
   }
 }
 
@@ -9727,8 +9725,9 @@ button.modal-info:after {
   }
 }
 
-.external-link a:hover {
-  color: #00006E;
+.external-link:hover {
+  color: darkslateblue;
+  text-decoration: underline;
 }
 
 .pdf-link a {
@@ -9840,7 +9839,7 @@ a:hover {
   background: #00006E !important;
 }
 
-.sw-primary-btn a {
+.sw-primary-btn {
   position: relative;
   border-radius: 5px;
   -webkit-box-shadow: 0px 2px 4px #60617029;
@@ -11661,8 +11660,7 @@ p {
 }
 
 .sw-footer-wrapper .sw-footer-top .sw-footer-center {
-  width: 50%;
-  text-align: center;
+  text-align: left;
 }
 
 @media (max-width: 1150px) {
@@ -11673,7 +11671,7 @@ p {
 
 .sw-footer-wrapper .sw-footer-top .sw-footer-right {
   width: 25%;
-  padding-left: 76px;
+  margin-left: auto;
 }
 
 .sw-footer-wrapper .sw-footer-top .sw-footer-right .footer-icons {
@@ -11712,43 +11710,27 @@ p {
 }
 
 .sw-footer-wrapper .sw-footer-top .sw-footer-right .footer-icons .sw-linkedin {
-  /* background: url("clientlib-base/site/styles/src/assets/resources/illustrations/LinkedIn-default.svg") no-repeat center; */
+  background: url("/images/LinkedIn-default.svg") no-repeat center;
 }
 
 .sw-footer-wrapper .sw-footer-top .sw-footer-right .footer-icons .sw-linkedin:hover {
-  /* background: url("clientlib-base/site/styles/src/assets/resources/illustrations/LinkedIn-hover.svg") no-repeat center; */
-}
-
-.sw-footer-wrapper .sw-footer-top .sw-footer-right .footer-icons .sw-twitter {
-  /* background: url("clientlib-base/site/styles/src/assets/resources/illustrations/Twitter-default.svg") no-repeat center; */
-}
-
-.sw-footer-wrapper .sw-footer-top .sw-footer-right .footer-icons .sw-twitter:hover {
-  /* background: url("clientlib-base/site/styles/src/assets/resources/illustrations/Twitter-hover.svg") no-repeat center; */
+  filter: opacity(.75);
 }
 
 .sw-footer-wrapper .sw-footer-top .sw-footer-right .footer-icons .sw-facebook {
-  /* background: url("clientlib-base/site/styles/src/assets/resources/illustrations/Facebook-default.svg") no-repeat center; */
+  background: url("/images/Facebook-default.svg") no-repeat center;
 }
 
 .sw-footer-wrapper .sw-footer-top .sw-footer-right .footer-icons .sw-facebook:hover {
-  /* background: url("clientlib-base/site/styles/src/assets/resources/illustrations/Facebook-hover.svg") no-repeat center; */
+  filter: opacity(.75);
 }
 
 .sw-footer-wrapper .sw-footer-top .sw-footer-right .footer-icons .sw-instagram {
-  /* background: url("clientlib-base/site/styles/src/assets/resources/illustrations/Instagram-default.svg") no-repeat center; */
+  background: url("/images/Instagram-default.svg") no-repeat center;
 }
 
 .sw-footer-wrapper .sw-footer-top .sw-footer-right .footer-icons .sw-instagram:hover {
-  /* background: url("clientlib-base/site/styles/src/assets/resources/illustrations/Instagram-hover.svg") no-repeat center; */
-}
-
-.sw-footer-wrapper .sw-footer-top .sw-footer-right .footer-icons .sw-youTube {
-  /* background: url("clientlib-base/site/styles/src/assets/resources/illustrations/Youtube-default.svg") no-repeat center; */
-}
-
-.sw-footer-wrapper .sw-footer-top .sw-footer-right .footer-icons .sw-youTube:hover {
-  /* background: url("clientlib-base/site/styles/src/assets/resources/illustrations/Youtube-hover.svg") no-repeat center; */
+  filter: opacity(.75);
 }
 
 @media (max-width: 1150px) {
