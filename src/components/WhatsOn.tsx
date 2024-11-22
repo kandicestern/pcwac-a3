@@ -29,7 +29,7 @@ export default function WhatsOn() {
                                 </div>
                             </div>
                             <a aria-describedby="card-desc-1" href="/accounts-billing/reading-your-meter/about-your-meter/smart-meters.html">
-                                <button className="external-link">Read more</button>
+                                <button tabIndex={-1} className="external-link">Read more</button>
                             </a>
                         </div>
                     </div>
@@ -49,7 +49,7 @@ export default function WhatsOn() {
                                 </div>
                             </div>
                             <a aria-describedby="card-desc-2" href="/education/programs-resources/sydney-water-innovation-festival.html">
-                                <button className="external-link">Read more</button>
+                                <button tabIndex={-1} className="external-link">Read more</button>
                             </a>
                         </div>
                     </div>
@@ -68,7 +68,7 @@ export default function WhatsOn() {
                                 </div>
                             </div>
                             <a aria-describedby="card-desc-3" href="https://www.sydneywater.com.au/about-us/our-organisation/long-term-capital-and-operational-plan.html">
-                                <button className="external-link">Read more</button>
+                                <button tabIndex={-1} className="external-link">Read more</button>
                             </a>
                         </div>
                     </div>
