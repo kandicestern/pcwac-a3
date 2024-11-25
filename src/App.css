@@ -32,7 +32,12 @@
  */
 
 /* skip to main */
+#skip-to-main {
+  padding: 1rem;
+}
+
 #skip-to-main a{
+  padding: 1rem;
 	position: absolute;
 	left: -10000px;
 	top: auto;
