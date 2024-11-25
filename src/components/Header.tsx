@@ -8,7 +8,9 @@ export default function Header() {
             <header className="sw-header">
                 <div className="sw-header-info">
                     <div className="sw-header-info-content">
-
+                        <div id="skip-to-main">
+                            <a href="#main-content">Skip to content</a>
+                        </div>
                         <div className="sw-header-wrapper">
                             <div className='sw-hamburger-menu'>
                                 <MobileNavigation />

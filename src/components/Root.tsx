@@ -21,16 +21,20 @@ export default function Root() {
                                         <Navigation />
                                     </div>
                                 </div>
-                                <CTAItems />
-                                <Hero />
-                                <div className="container responsivegrid articleLayout aem-GridColumn aem-GridColumn--default--12">
-                                    <div id="ID03" className="cmp-container sw-child-mobile-fw">
-                                        <div className="aem-Grid aem-Grid--12 aem-Grid--default--12">
-                                            <TabsComponent />
-                                            <WhatsOn />
+
+                                <main id="main-content">
+
+                                    <CTAItems />
+                                    <Hero />
+                                    <div className="container responsivegrid articleLayout aem-GridColumn aem-GridColumn--default--12">
+                                        <div id="ID03" className="cmp-container sw-child-mobile-fw">
+                                            <div className="aem-Grid aem-Grid--12 aem-Grid--default--12">
+                                                <TabsComponent />
+                                                <WhatsOn />
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </main>
                             </div>
                         </div>
                     </div>
